@@ -23,7 +23,7 @@ body{
      }
   
   h1 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: rgb(230, 103, 124);
     font-size: 50px;
     margin-top: 0;
@@ -79,7 +79,7 @@ p {
 display:inline-block;
   }
 
-  .flavor, .beer, .mejor{
+  .flavor, .Blend, .mejor{
     text-align: left;
     width: 50%;
   }
@@ -140,12 +140,6 @@ justify-content: center;
 zoom:200%;
 }
 
-#beer-mug{
-    display:flex;
-    justify-content: center;
-    zoom:200%;
-    }
-
     footer{
       font-family: Impact,sans-serif;
       background-size: 35%;
@@ -155,4 +149,19 @@ zoom:200%;
       color:rgb(16, 7, 80);
     
   }
+  footer{
+    font-family: Impact,sans-serif;
+    background-size: 35%;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+footer a{
+   color: rgb(174, 0, 255);
+   text-decoration: none;
+}
+footer a:hover{
+  color: rgb(38, 7, 54);
+  
+}
   
