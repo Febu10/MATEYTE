@@ -1,0 +1,90 @@
+body{
+    background: rgb(238,174,227);
+    background: radial-gradient(circle, rgba(238,174,227,1) 0%, rgba(148,214,233,1) 100%);
+}
+
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(230, 103, 124);
+    font-size: 65px;
+    margin-top: 20;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.texto-borde{
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    color:#f7b385;
+    font-family:Impact;
+    font-size: 30px;
+    text-align: center;
+}
+.input{
+    border: 2px solid black;
+}
+.botonform{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.ambosforms{
+    width: fit-content;
+    margin: 0 5%;
+}
+.contenedorTodo{
+    display: flex;
+    justify-content: center;
+    border: 6px solid black;
+    border-radius: 3% ;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: Impact,sans-serif;
+    background-size: 35%;
+    margin :0 auto;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    color:rgb(16, 7, 80);
+    width: fit-content;
+}
+.footerUL{
+    padding: 0;
+    list-style: none;
+
+}
+.footerUL li{
+    text-align: center;
+}
+footer a{
+    color: rgb(174, 0, 255);
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(38, 7, 54);
+}
+.address{
+    padding:0 ;
+    margin: 0;
+}
+h4{
+    width: 10px;
+    align-items: center;
+
+}
+.contenedor-imagen {
+    width: 65%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+   
+  }
+  #niñaTé {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 30%; /* Modifica el valor según el tamaño deseado */
+    height: auto; /* Para mantener la proporción de la imagen */
+  }
